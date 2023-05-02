@@ -1,0 +1,10 @@
+to do list:
+1. Finish meals list
+2. Make design responsive
+3. Configure portals
+4. Configure general states ( Context API, Redux )
+
+
+how to deploy: 
+
+terminal : npm run build

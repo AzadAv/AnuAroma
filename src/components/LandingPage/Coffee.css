@@ -1,0 +1,47 @@
+.coffee {
+
+    width:430px;
+    height: 430px;
+    /* border:1px solid black;  */
+
+    text-align: center;
+  
+    font-weight: bolder;
+    color:#910000;
+    -webkit-text-stroke: 1.5px black;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.coffee span{
+
+    font-size: 40px;
+    font-family: 'Times New Roman', Times, serif;
+    
+    background-color: white;
+    border-radius: 20px;
+    padding: 5px;
+    margin-top: 20px;
+}
+
+
+/* For Mobile */
+@media screen and (max-width: 540px) {
+
+    
+
+    .coffee {
+ 
+    /* display: none; */
+
+    /* width: 122px;
+    height: 122px; */
+    margin-top:10px;
+    margin-bottom: 10px;
+    justify-content: center;
+    align-items: center;
+    }
+
+   
+ }

@@ -1,0 +1,51 @@
+.backdrop {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    z-index: 10;
+    background: rgba(6, 6, 6, 0.75);
+  } 
+ 
+
+  /* For Mobile */
+@media screen and (max-width: 540px) { 
+
+    .screen .mealDetails .mealName{
+
+        font-size: 20px;
+    }
+
+    .screen .mealDetails .description {
+
+        width: 100%;
+    }
+
+
+    .screen .mealDetails .mealImage {
+
+        display: none;
+    }
+
+    .choiceItemContainer {
+
+        margin-left: 10px;
+    }
+
+    .screen .mealSize .text {
+
+        font-size: 15px;
+    }
+
+    .screen .toGo .text {
+
+        font-size: 15px;
+    }
+
+    .screen .buttons button {
+
+        width: 30%;
+    }
+
+}

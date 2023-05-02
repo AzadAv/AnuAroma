@@ -1,0 +1,14 @@
+.coffeeThird {
+
+    width: 530px;
+    height: 330px;
+    background-image: url('../pics/aroma4.jpg');
+    object-fit: cover;
+    background-size: cover;
+   
+    z-index: -1;
+    
+    text-align: center;
+    justify-content: center;
+    /* border-radius: 20px; */
+}

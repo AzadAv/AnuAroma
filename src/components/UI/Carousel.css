@@ -1,0 +1,54 @@
+.carousel {
+
+    overflow: hidden;
+    /* height: 400px; */
+    width: 430px;
+    /* border-radius: 20px; */
+    /* margin-top: 200px;
+    margin-left: 30%; */
+    border-radius: 40px;
+    
+}
+
+.inner {
+
+    white-space: nowrap;
+    transition: transform 0.9s;
+    /* border: 1px solid black; */
+
+}
+
+.carousel-item {
+/* inline-flex */
+    display: inline-flex;
+    
+    /* align-items: center;  */
+    justify-content: center;
+    /* width: 200px; */
+    /* margin-left: 100px; */
+    height: 328px;
+    width:430px;
+    /* background-color: green; */
+    /* padding-bottom: 100px; */
+    color: #fff;
+    /* border:1px solid black; */
+
+}
+
+
+/* For Mobile */
+@media screen and (max-width: 540px) {
+
+    
+
+    .carousel {
+ 
+    /* display: none; */
+
+    width: 330px;
+    height: 330px;
+  
+    }
+
+   
+ }

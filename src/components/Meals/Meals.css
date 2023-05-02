@@ -1,0 +1,30 @@
+.meals {
+
+    display: flex;
+    flex-direction: column;
+    /* width:1405px; */
+    width:100%;
+    max-width: 100%;
+    /* margin-top:9vh; */
+    /* border:1px solid black; */
+   
+}
+
+.layout {
+
+    display: flex;
+    flex-direction: column;
+}
+
+/* For Mobile */
+@media screen and (max-width: 540px) { 
+
+    
+    .meals {
+
+        
+        width: 100%;
+        max-width: 100%;
+    }
+}
+

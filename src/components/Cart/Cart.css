@@ -1,0 +1,368 @@
+.Cart {
+
+    border:1px solid black;
+    height: 693rem;
+    position:fixed;
+    top: 17%;
+    left: 30%;
+    background-color: white;
+    width: 40%;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    border-radius: 15px;
+    z-index: 100;
+}
+.Cart .closeScreenBtn {
+
+    position: fixed;
+    left:38%;
+    top:18%;
+   border-color: #910000;
+   background: none;
+   cursor: pointer;
+   width: 30px;
+   height: 30px;
+   font-size: 20px;
+   font-weight: 700;
+   color:#910000;
+   border-radius: 10px;
+   margin-left: 30%;
+   display: flex;
+   justify-content: center;
+}
+.Cart .closeScreenBtn:hover{
+
+    cursor: pointer;
+    background-color: rgb(243, 224, 189);
+    transition: 0.1s ease-in;
+}
+.Cart .head {
+
+    display: flex;
+    justify-content: center;
+    font-size: 30px;
+    font-weight: 600;
+    color:#910000;
+}
+.Cart .itemTemplate {
+
+    /* border: 1px solid black; */
+    font-size: 18px;
+    font-weight: 500;
+    display: flex;
+    flex-direction: row;
+    /* justify-content: space-around; */
+    /* margin-left: 10%; */
+    width: 100%;
+    color: #f05348;
+}
+.Cart .itemTemplate .itemName {
+
+    margin-left: 11%;
+}
+.Cart .itemTemplate .size {
+
+    margin-left: 19%;
+}
+.Cart .itemTemplate .toSit {
+
+    margin-left: 7%;
+}
+.Cart .itemTemplate .amount {
+
+    margin-left: 4%;
+}
+.Cart .itemTemplate .templatePrice {
+
+    margin-left: 5.5%;
+}
+.Cart .itemsList {
+
+    width: 100%;
+    height: 60%;
+    /* border: 1px solid black; */
+    /* padding: 1%; */
+    overflow: scroll;
+    overflow-x: hidden;
+}
+.Cart .orderDetails {
+
+    /* border: 1px solid black; */
+    width: 100%;
+    height: 20%;
+    display: flex;
+
+}
+.Cart .orderDetails input{
+
+    border: 1px solid black;
+    width: 48%;
+    margin-left: 0.2%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    font-size: 20px;
+
+}
+.Cart .orderDetails input::placeholder{
+
+    color: rgb(247, 190, 85);
+    font-size: 20px;
+    font-weight: 500;
+}
+.Cart .orderDetails .totalPrice{
+
+    /* border: 1px solid black; */
+    width: 50%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 30px;
+    font-weight: 600;
+    color:#910000;
+}
+.Cart .buttonDiv{
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* border: 1px solid black; */
+    padding: 5px;
+}
+.Cart .buttonDiv button{
+
+    height: 40px;
+    width: 20%;
+    border-radius: 5px;
+    border: none;
+    padding: 2px;
+    background-color: #f05348;
+    font-size: 20px;
+    /* color: white; */
+    transition: 0.1s ease-in-out;
+    font-size: 20px;
+    cursor: pointer;
+    color: white;
+}
+.Cart .buttonDiv button:hover{
+
+
+    cursor: pointer;
+    background-color:#910000;
+    transition: 0.1s ease-in;
+}
+.Cart .buttonDiv button:disabled{
+
+    background-color: gray;
+    cursor: not-allowed;
+    color: rgb(190, 191, 191);
+}
+/*  */
+/*  */
+/*  */
+.item {
+
+        width: 98%;
+        height: 40px;
+        margin:1%;
+        border-radius: 10px;
+        align-items: center;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        border: 1px solid #910000;
+     
+}
+.item span {
+
+    /* border: 1px solid black; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+}
+.item .itemName {
+
+   width: 30%;
+}
+.item .itemSize {
+
+    width: 20%;
+}
+.item .itemToGo {
+
+    width: 10%;
+}
+.item .itemPrice {
+
+    width: 10%;
+}
+.item .changeAmount {
+
+   
+    height: 100%;
+    width: 20%;
+    display: flex;
+    flex-direction: row;
+  
+}
+.item .changeAmount .itemsNumber {
+    width: 40%;
+    margin-left: 17%;
+    display: flex;
+    justify-content: center;
+}
+.item .changeAmount .remove {
+
+    border: 1px solid #910000;
+    border-radius: 6px;
+    width: 30%;
+    text-align: center;
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+}
+.item .changeAmount .remove:hover {
+
+    
+    cursor: pointer;
+    background-color: rgb(243, 224, 189);
+    transition: 0.1s ease-in;
+}
+.item .closeButton {
+
+    /* position: fixed;
+     left:75%;
+     top:16.5%; */
+    /* border-color: #910000; */
+    /* background: none; */
+    cursor: pointer;
+    width: 30px;
+    height: 30px;
+    font-size: 23px;
+    font-weight: 700;
+    color:#910000;
+    /* border:1px solid #910000; */
+    border-radius: 10px;
+}
+.item .closeButton:hover {
+
+    cursor: pointer;
+    background-color: rgb(243, 224, 189);
+    transition: 0.1s ease-in;
+    /* border:1px solid #910000; */
+}
+/*  */
+/*  */
+/*  */
+.lastScreen {
+
+    border:1px solid black;
+   
+    position:fixed;
+    top: 25%;
+    left: 30%;
+    background-color: white;
+    width: 40%;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    border-radius: 15px;
+    z-index: 100;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+.lastScreenName {
+
+    color:#910000;
+}
+.lastScreen .destroyButton{
+
+    height: 40px;
+    width: 20%;
+    border-radius: 5px;
+    border: none;
+    padding: 2px;
+    background-color: #f05348;
+    font-size: 20px;
+    /* color: white; */
+    transition: 0.1s ease-in-out;
+    font-size: 20px;
+    cursor: pointer;
+    color: white;
+}
+.lastScreen .destroyButton:hover{
+
+
+    cursor: pointer;
+    background-color:#910000;
+    transition: 0.1s ease-in;
+}
+  /* For Mobile */
+@media screen and (max-width: 740px) {
+
+    .Cart {
+        left: 5%;
+        width: 90%;
+    }
+    .Cart .closeScreenBtn {
+        left:58%;
+        top:18%;
+    }
+    .Cart .head {
+   
+        font-size: 25px;
+        margin-bottom: 5px;
+     
+    }
+    .Cart .itemTemplate {
+
+        /* border: 1px solid black; */
+        font-size: 14px;
+    }
+    .Cart .itemTemplate .itemName {
+
+        margin-left: 9%;
+    }
+    .Cart .itemTemplate .size {
+    
+        margin-left: 18%;
+    }
+    .Cart .itemTemplate .toSit {
+    
+        margin-left: 5%;
+    }
+    .Cart .itemTemplate .amount {
+    
+        margin-left: 4%;
+    }
+    .Cart .itemTemplate .templatePrice {
+    
+        margin-left: 4%;
+    }
+    .item span {
+
+      
+        font-size: 15px;
+        font-weight: 600;
+    }
+
+    .lastScreen {
+
+        width: 90%;
+        left: 5%;
+        top: 30%;
+        height: 40%;
+    }
+}
+
+
+
